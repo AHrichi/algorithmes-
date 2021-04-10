@@ -1,0 +1,22 @@
+ALGORITHM _STRING
+VAR
+    a:STRING ;
+    i:INTEGER;
+    j:INTEGER:=0 ;
+    k:INTEGER:= 1 ;
+BEGIN
+     REPEAT
+         read (a)
+     UNTIL (a(a.length())=".") ;
+    write (a.length()) ;
+    FOR i FROM 1 TO ch.length()  DO
+        IF (a(i)=["o","i","y","e","a","u"]  THEN
+            j := j +1 ;
+        END_IF
+        IF (a(i)=" ") THEN
+            k:=k+1;
+        END_IF
+    END_FOR
+    write(j);
+    write(k);
+END
