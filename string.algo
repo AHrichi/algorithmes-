@@ -9,7 +9,7 @@ BEGIN
          read (a)
      UNTIL (a(a.length())=".") ;
     write (a.length()) ;
-    FOR i FROM 1 TO ch.length()  DO
+    FOR i FROM 1 TO a.length()  DO
         IF (a(i)=["o","i","y","e","a","u"]  THEN
             j := j +1 ;
         END_IF
